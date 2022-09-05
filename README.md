@@ -10,6 +10,5 @@
 ### 遊戲畫面預覽
 ![image](https://github.com/wdaweb/jq_zombie-iiQvQii/blob/master/img/game.png)
 
-# 泰山職訓前端班打殭屍小遊戲作業
 
 
