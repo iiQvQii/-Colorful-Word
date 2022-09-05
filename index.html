@@ -82,6 +82,7 @@
         })
 
         const { value: sec } = await Swal.fire({
+          heightAuto: false,
           title: `Please Select Game Time<br>`,
           text: `請選擇遊戲時間 `,
           input: 'radio',
@@ -95,6 +96,7 @@
 
         if (sec) {
           Swal.fire({
+            heightAuto: false,
             html: `You selected: ${sec} s
             <br>
             Now you can click the START! `
@@ -173,6 +175,7 @@
           $('#game').append(title)
           if (score < 2) {
             Swal.fire({
+              heightAuto: false,
               title: 'You sucks!',
               text: `You Got ${score} Points.`,
               imageUrl: './img/title.svg',
@@ -188,6 +191,7 @@
             })
           } else {
             Swal.fire({
+              heightAuto: false,
               title: 'You did a great job!',
               text: `You Got ${score} Points.`,
               showClass: {
